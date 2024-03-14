@@ -10,3 +10,8 @@ thumb.sdb
 .idea
 wandb/
 trained_models/
+*.pt
+*.img
+*.avi
+*.mp4
+*.wav
