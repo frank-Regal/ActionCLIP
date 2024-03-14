@@ -1,0 +1,1 @@
+# download the vit-b-16-32f.pt model to use.
