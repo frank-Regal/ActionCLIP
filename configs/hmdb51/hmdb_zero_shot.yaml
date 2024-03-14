@@ -1,4 +1,4 @@
-pretrain:  # zero shot need a pretrained model
+pretrain:  '/home/regal/devel/ws_cacti/src/hri_cacti_xr/gesture_recognition/gesture_recogition_research/ActionCLIP/models/vit-b-16-32f/vit-b-16-32f.pt'
 seed: 1024
 data:
     dataset: hmdb51

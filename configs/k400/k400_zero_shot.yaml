@@ -1,22 +1,22 @@
-pretrain: 
+pretrain: '/home/regal/devel/ws_cacti/src/hri_cacti_xr/gesture_recognition/gesture_recogition_research/ActionCLIP/weights/vit-b-16-32f/vit-b-16-32f.pt'
 seed: 1024
 data:
-    dataset: kinetics400
+    dataset: hl
     modality: RGB
     num_segments: 8
     seg_length: 1
     split: 1
     batch_size: 64
-    workers: 16
-    num_classes: 400
+    workers: 8
+    num_classes: 3
     image_tmpl: 'img_{:05d}.jpg'
-    val_list: 'lists/k4001/val_frames_re.txt' #
-    label_list: 'lists/kinetics_400_labels.csv'
+    val_list: '/home/regal/devel/ws_cacti/src/hri_cacti_xr/gesture_recognition/gesture_recogition_research/action_clip_data/hl_val_frames_re.txt' #
+    label_list: '/home/regal/devel/ws_cacti/src/hri_cacti_xr/gesture_recognition/gesture_recogition_research/action_clip_data/hl_val_labels.csv'
     index_bias: 1
     input_size: 224
     random_shift: False
 network:
-    arch: ViT-B/32  #ViT-B/32 ViT-B/16
+    arch: ViT-B/16  #ViT-B/32 ViT-B/16
     init: True
     tsm: False
     drop_out: 0.0 # probability of an element to be zeroed
