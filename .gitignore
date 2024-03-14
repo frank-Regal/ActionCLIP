@@ -11,7 +11,8 @@ thumb.sdb
 wandb/
 trained_models/
 *.pt
-*.img
 *.avi
 *.mp4
 *.wav
+*.jpg
+*.png
