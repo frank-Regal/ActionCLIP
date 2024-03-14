@@ -1,0 +1,3 @@
+/home/regal/devel/ws_cacti/src/hri_cacti_xr/gesture_recognition/gesture_recogition_research/action_clip_data/hl_val_frames/test/stop/vid1 199 0
+/home/regal/devel/ws_cacti/src/hri_cacti_xr/gesture_recognition/gesture_recogition_research/action_clip_data/hl_val_frames/test/stop/vid2 151 0
+/home/regal/devel/ws_cacti/src/hri_cacti_xr/gesture_recognition/gesture_recogition_research/action_clip_data/hl_val_frames/test/hold/vid1 171 1
